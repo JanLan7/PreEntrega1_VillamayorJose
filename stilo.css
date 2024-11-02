@@ -83,3 +83,60 @@ ul {
 h2{
     text-align: center;
 }
+
+/* Dispositivos moviles */
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    p {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .small-image {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 15px 0;
+    }
+
+    nav a {
+        margin: 0 12px;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .small-image {
+        width: 80%;
+    }
+
+    footer {
+        font-size: 0.85em;
+    }
+}
